@@ -1,0 +1,7 @@
+// Calc.idl : CORBA interface definition
+
+module Demo {
+    interface Calc {
+        long add(in long a, in long b);
+    };
+};
